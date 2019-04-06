@@ -1,0 +1,5 @@
+Have to rewrite the introduction.
+
+If you've ever seen a data scientist or a programmer work, it may seem like they're speaking a different language.  A lot of them can just navigate programs better and faster than you can.  This is an acquired skill.  Programs, and even the entire Internet tends to follow the same pattern.  And by learning about that pattern we can enhance the way we retrieve data online, and we can then program a computer to find this information online in a similar way.   
+
+So let's go back to browsing the web.
