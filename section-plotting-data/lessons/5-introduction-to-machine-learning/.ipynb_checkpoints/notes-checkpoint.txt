@@ -1,0 +1,2 @@
+Notes - frame in the beginning of having a machine learning model as cost function, and learning algorithm.
+Define what a model is 

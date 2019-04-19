@@ -1,0 +1,2 @@
+update to talk about the derivative a little earlier 
+Perhaps go into the derivative after this, and then end.

@@ -1,0 +1,22 @@
+Introduce some new concepts earlier 
+
+May need in the engineering section to build up to idea of 
+1. Features on one side -  List of lists 
+2. Targets on the other side...one large list
+
+This may seem weird, but it's almost like separating out the list of tasks having that all in one grid and the answers in another list.  
+
+
+So then going 
+
+1. targets, and features
+   Justify separation of the two 
+       That we may want to places our features in a list, and our targets in a separate list.
+That steps are
+A. Fit 
+B. Parameters and Coef_
+C. Once have those parameters, predict.
+
+-> .fit(X_train, y_train)
+Gradient descent may be ideal to talk about.
+
