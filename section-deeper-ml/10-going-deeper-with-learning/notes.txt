@@ -1,5 +1,0 @@
-We need to split this into two lessons.  
-Perhaps after plot all of the different lines, can just explain that computers are quite good at finding the minimum.  
-Show that with the optimize function.
-
-Then leave as a bonus, how it does this.

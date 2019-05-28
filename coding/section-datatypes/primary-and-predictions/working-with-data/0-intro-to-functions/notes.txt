@@ -1,0 +1,10 @@
+1. Starting with the problem of a complicated operation seems to cloud the issue.
+2. Instead could start with:
+Talk about how we have already seen functions
+    Length, or capitalize.  
+    Now that we have written our own, we could write some of our own.
+    A. Function name 
+        And then pass.
+    A. Functions wrapping a procedure
+    B. The data in that procedure being trapped, because of scope
+    C. Throwing that function over the wall

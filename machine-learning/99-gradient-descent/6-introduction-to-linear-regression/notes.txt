@@ -1,0 +1,2 @@
+Call it Simple Linear Regression - and can explain that 
+Perhaps structure it as representing in math first, and then representing in code.
