@@ -20,3 +20,25 @@ customers = [100, 103, 146, 106, 109, 149, 149, 149, 164, 176, 176, 139,
 232, 244, 284, 287, 259, 262, 262, 265, 268, 271, 271, 274, 320, 286, 289, 289, 332, 301, 347, 310, 313]
 random_errors = list(map(lambda num: randint(-30,30), range(0, 50)))
 customers_with_errors = list(map(lambda idx: customers[idx] + random_errors[idx],range(0, 50)))
+
+from sklearn.linear_model import LinearRegression
+feature_datasets = [input_temps, temps_and_is_weekends, temps_weekends_and_ages]
+models = []
+for dataset in feature_datasets:
+    model = LinearRegression()
+    model.fit(dataset, customers_with_errors)
+    models.append(model)
+models
+
+intercepts = [model.intercept_ for model in models]
+intercepts
+# [35.62031572335471, 9.854773197812762, 12.155548281106803]
+
+coefs = [model.coef_ for model in models]
+coefs
+from graph import trace_values
+models_and_data = list(zip(models, feature_datasets))
+predictions = list(map(lambda model_and_data: model_and_data[0].predict(model_and_data[1]), models_and_data))
+data_trace = trace_values(temps, customers_with_errors)
+names = ['temps', 'temps, weekends', 'temps, weekends, ages']
+prediction_traces = [trace_values(temps, prediction, mode = 'lines', name = name) for prediction, name in zip(predictions, names)]

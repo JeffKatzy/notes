@@ -1,0 +1,8 @@
+from graph import trace_values, plot
+import plotly.plotly as py
+trace = trace_values(inputs, outcomes)
+py.plot([trace], auto_open = True)
+plot([trace])
+
+post 1 - https://plot.ly/~JeffKatzy/148.embed
+
